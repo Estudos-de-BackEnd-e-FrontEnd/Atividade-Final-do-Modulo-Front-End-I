@@ -28,9 +28,10 @@ img {
     border: 5px solid #c07e62;
     border-radius: 50%;
     width: 150px;
+    height: 150px;
 }
 
-ol li, ul li{
+section li{
     margin-bottom: 15px;
     margin-left: 20px;
  
@@ -39,6 +40,7 @@ ol li, ul li{
 nav ul li {
     padding: 15px 0 15px 0;
     list-style: none;
+    height: 15px;
 }
 
 a {
