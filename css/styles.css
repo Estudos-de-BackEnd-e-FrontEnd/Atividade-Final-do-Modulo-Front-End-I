@@ -1,81 +1,86 @@
-body{
-        display: flex;
-        font-family: 'Exo 2', sans-serif;
-        color: #33383C;
+body {
+display: flex;
+font-family: "Exo 2", sans-serif;
+color: #33383c;
 }
-main{
-        display: flex;
-        align-items: center;
-        padding: 0 25px;
-        
+main {
+display: flex;
+align-items: center;
+padding: 0 25px;
 }
-aside{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #B26241;
-        height: 100vh;
-        width: 250px;
-        text-align: center;
-}
-
-header{
-        width: 200px;
-}
-img{
-        border: 5px solid #C07E62;
-        border-radius: 50%;
-        width: 150px;
+aside {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #b26241;
+height: 100vh;
+width: 250px;
+text-align: center;
 }
 
-nav ul li{
-        padding: 15px 0 15px 0;
+header {
+width: 200px;
+}
+img {
+    border: 5px solid #c07e62;
+    border-radius: 50%;
+    width: 150px;
 }
 
-a{
-        text-decoration: none;
-        color: #C99075;
-        font-family: "Roboto", sans-serif;
-        font-weight: 900;
+nav ul li {
+    padding: 15px 0 15px 0;
+}
+ol li{
+    margin-bottom: 15px;
+    
+}
+a {
+    text-decoration: none;
+    color: #c99075;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
 }
 
-header nav a:hover, .active{
-        color: #ffffff;
+header nav a:hover,
+.active {
+    color: #ffffff;
 }
 
-i{
-        width: 16px;
-        padding: 10px;
-        text-align: center;
-        background-color: #4B4E56;
-        color: #ffffff;
-        border-radius: 50px;
-        margin: 25px 10px 0 0;
+i {
+    width: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4b4e56;
+    color: #ffffff;
+    border-radius: 50px;
+    margin: 25px 10px 0 0;
 }
 
-section{
-        max-width: 800px;
+section {
+    max-width: 800px;
 }
 
-
-p{
-       font-size: 14px;
-       margin-bottom: 10px;
-}
-h1{
-        font-size: 48px;
-        font-weight: 400;
-        margin-bottom: 15px;
-}
-h2{
-        font-size: 16px;
-        margin-bottom: 50px;
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+ 
 }
 
-h1, h2{
-        font-weight: bold;
-        text-transform: uppercase;
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 15px;
 }
-span{
-        color: #B6613C;
+h2 {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+span {
+    color: #b6613c;
 }
