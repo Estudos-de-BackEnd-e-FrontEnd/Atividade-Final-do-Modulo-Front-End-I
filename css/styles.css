@@ -3,11 +3,13 @@ display: flex;
 font-family: "Exo 2", sans-serif;
 color: #33383c;
 }
+
 main {
 display: flex;
 align-items: center;
 padding: 0 25px;
 }
+
 aside {
 display: flex;
 align-items: center;
@@ -21,19 +23,24 @@ text-align: center;
 header {
 width: 200px;
 }
+
 img {
     border: 5px solid #c07e62;
     border-radius: 50%;
     width: 150px;
 }
 
+ol li, ul li{
+    margin-bottom: 15px;
+    margin-left: 20px;
+ 
+}
+
 nav ul li {
     padding: 15px 0 15px 0;
+    list-style: none;
 }
-ol li{
-    margin-bottom: 15px;
-    
-}
+
 a {
     text-decoration: none;
     color: #c99075;
@@ -73,11 +80,10 @@ h1 {
 }
 h2 {
     font-size: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
-h1,
-h2 {
+h1,h2 {
     font-weight: bold;
     text-transform: uppercase;
 }
